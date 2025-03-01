@@ -1,3 +1,5 @@
+import './Goal.css'
+
 import goal00 from './assets/goal-00.jpg';
 import goal01 from './assets/goal-01.jpg';
 import goal10 from './assets/goal-10.jpg';

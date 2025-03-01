@@ -5,8 +5,6 @@ import Goal from './Goal';
 
 
 function App() {
-
-
   const [arr, setArr] = useState(generateRandomNumbers())
 
   function generateRandomNumbers() {
