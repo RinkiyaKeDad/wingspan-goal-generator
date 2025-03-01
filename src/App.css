@@ -28,3 +28,9 @@ button {
 button:hover {
   background-color: #f5f4f4;
 }
+
+.para {
+  margin: 1.5rem;
+  font-size: 1.2em;
+  font-weight: 400;
+}

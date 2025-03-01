@@ -25,18 +25,11 @@ function App() {
       <button onClick={() => setArr(generateRandomNumbers)}> Generate</button>
       <div className='goal-table'>
         {arr.map((val, index) => <Goal round={index} tile={val} side={getRandomInt(2)} />)}
-        {/* <div className='goal'>
-          <img src={goals[arr[0]][getRandomInt(2)]} alt="Round 1 Goal" />
-        </div>
-        <div className='goal'>
-          <img src={goals[arr[1]][getRandomInt(2)]} alt="Round 2 Goal" />
-        </div>
-        <div className='goal'>
-          <img src={goals[arr[2]][getRandomInt(2)]} alt="Round 3 Goal" />
-        </div>
-        <div className='goal'>
-          <img src={goals[arr[3]][getRandomInt(2)]} alt="Round 4 Goal" />
-        </div> */}
+      </div>
+      <div className='para'> 
+        <a href='https://boardgamegeek.com/boardgame/266192/wingspan' target="_blank">Wingspan</a> is a card-driven engine-building board game made by Elizabeth Hargrave and Stonemaier Games. In the game the players assume the role of bird enthusiasts who are attract the best birds to their aviaries. The goal in the game is to score the most points by placing birds and laying eggs in different habitats.
+
+        The game plays over four rounds. This website helps you pick the end of round goals by selecting 4 out of the 16 available options for you at random.
       </div>
     </div>
   )
